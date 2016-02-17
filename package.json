@@ -1,0 +1,51 @@
+{
+  "name": "generator-nm",
+  "version": "0.0.1",
+  "description": "Scaffold out a node module",
+  "license": "MIT",
+  "repository": "tthyer/generator-nm",
+  "author": {
+    "name": "Tess Thyer",
+    "email": "tmthyer@gmail.com",
+    "url": "tthyer.github.io"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "plugin",
+    "boilerplate",
+    "template",
+    "scaffold",
+    "node",
+    "module",
+    "node_module",
+    "node-module",
+    "init",
+    "tape",
+    "gulp",
+    "bunyan"
+  ],
+  "dependencies": {
+    "humanize-url": "^1.0.1",
+    "normalize-url": "^1.2.0",
+    "underscore.string": "^3.0.3",
+    "yeoman-generator": "^0.22.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-nodemon": "^2.0.3",
+    "istanbul": "^0.4.1",
+    "run-sequence": "^1.1.2",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.2.0",
+    "yeoman-assert": "^2.0.0",
+    "yeoman-test": "^1.0.0"
+  },
+  "main": "test.js"
+}

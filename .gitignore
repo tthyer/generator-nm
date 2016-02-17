@@ -20,8 +20,9 @@ coverage
 # node-waf configuration
 .lock-wscript
 
-# Compiled binary addons (http://nodejs.org/api/addons.html)
-build/Release
+# Build folders
+build
+dist
 
 # Dependency directory
 node_modules
@@ -31,3 +32,17 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# OS or Editor folders
+.DS_Store
+._*
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+.idea

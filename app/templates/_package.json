@@ -1,0 +1,41 @@
+{
+  "name": "<%= moduleName %>",
+  "version": "0.0.1",
+  "description": "<%= description %>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "<%= repository %>"
+  },
+  "homepage": "<%= website %>",
+  "author": {
+    "name": "<%= authorName %>",
+    "email": "<%= email %>",
+    "url": "<%= humanizedWebsite %>"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "tape 'test/*.js' | tap-spec",
+    "coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/tape/bin/tape './test/*.js'"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [],
+  "dependencies": {
+    "bunyan": "^1.6.0",
+    "lodash": "^4.5.0"
+  },
+  "devDependencies": {
+    "globquire": "^0.0.6",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-nodemon": "^2.0.6",
+    "istanbul": "^0.4.2",
+    "run-sequence": "^1.1.5",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.4.0"
+  }
+}
