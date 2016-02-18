@@ -20,7 +20,6 @@ module.exports = function() {
   });
 
   gulp.task('test', function() {
-    console.log('inside the test task');
     let stream = tape.createStream()
     .pipe(tapSpec())
     .pipe(process.stdout);
